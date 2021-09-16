@@ -34,10 +34,3 @@ def init_logger():
     # 6、将日志处理器添加到日志对象
     logger.addHandler(sf)
     logger.addHandler(fh)
-
-
-if __name__ == '__main__':
-    init_logger()
-    logging.info("info")
-    logging.debug("debug")
-    logging.error("error")
