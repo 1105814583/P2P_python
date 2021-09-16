@@ -1,0 +1,22 @@
+2021-09-16 14:49:51,026 INFO [root] [__init__.py(<module>:4)] - info
+2021-09-16 14:49:51,230 INFO [root] [loginTest.py(test01_getImgCode_parameter:74)] - getImgCode_parameter ——<Response [200]>
+2021-09-16 14:49:51,310 INFO [root] [loginTest.py(test01_getImgCode_parameter:74)] - getImgCode_parameter ——<Response [200]>
+2021-09-16 14:49:51,371 INFO [root] [loginTest.py(test01_getImgCode_parameter:74)] - getImgCode_parameter ——<Response [404]>
+2021-09-16 14:49:51,449 INFO [root] [loginTest.py(test01_getImgCode_parameter:74)] - getImgCode_parameter ——<Response [400]>
+2021-09-16 14:49:51,535 INFO [root] [loginTest.py(test01_getImgCode_parameter:74)] - getImgCode_parameter ——<Response [400]>
+2021-09-16 14:49:51,620 INFO [root] [loginTest.py(test01_getImgCode_parameter:74)] - getImgCode_parameter ——<Response [400]>
+2021-09-16 14:49:51,708 INFO [root] [loginTest.py(test02_getMsgCode_parameter:83)] - login_response —<Response [200]>
+2021-09-16 14:49:51,762 INFO [root] [loginTest.py(test02_getMsgCode_parameter:88)] - getMsgCode_parameter response -{'status': 200, 'description': '短信发送成功'}
+2021-09-16 14:49:51,847 INFO [root] [loginTest.py(test02_getMsgCode_parameter:83)] - login_response —<Response [200]>
+2021-09-16 14:49:51,882 INFO [root] [loginTest.py(test02_getMsgCode_parameter:88)] - getMsgCode_parameter response -{'status': 100, 'description': '图片验证码错误'}
+2021-09-16 14:49:51,962 INFO [root] [loginTest.py(test02_getMsgCode_parameter:83)] - login_response —<Response [200]>
+2021-09-16 14:49:51,994 INFO [root] [loginTest.py(test02_getMsgCode_parameter:88)] - getMsgCode_parameter response -{'status': 100}
+2021-09-16 14:49:52,074 INFO [root] [loginTest.py(test02_getMsgCode_parameter:83)] - login_response —<Response [200]>
+2021-09-16 14:49:52,106 INFO [root] [loginTest.py(test02_getMsgCode_parameter:88)] - getMsgCode_parameter response -{'status': 100, 'description': '图片验证码错误'}
+2021-09-16 14:49:52,192 INFO [root] [loginTest.py(test03_getMsgCode_no_imgCode_request:93)] - getMsgCode_no_imgCode_request —<Response [200]>
+2021-09-16 14:50:26,899 INFO [root] [__init__.py(<module>:4)] - info
+2021-09-16 14:50:27,078 INFO [root] [loginTest.py(test03_getMsgCode_no_imgCode_request:93)] - getMsgCode_no_imgCode_request —<Response [200]>
+2021-09-16 14:50:35,107 INFO [root] [__init__.py(<module>:4)] - info
+2021-09-16 14:50:35,290 INFO [root] [loginTest.py(test03_getMsgCode_no_imgCode_request:93)] - getMsgCode_no_imgCode_request —<Response [200]>
+2021-09-16 14:50:48,249 INFO [root] [__init__.py(<module>:4)] - info
+2021-09-16 14:50:48,431 INFO [root] [loginTest.py(test03_getMsgCode_no_imgCode_request:93)] - getMsgCode_no_imgCode_request —{'status': 100, 'description': '图片验证码错误'}

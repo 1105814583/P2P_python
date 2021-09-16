@@ -1,0 +1,113 @@
+2021-09-16 17:18:44,811 INFO [root] [__init__.py(<module>:4)] - info
+2021-09-16 17:20:52,123 INFO [root] [__init__.py(<module>:4)] - info
+2021-09-16 17:20:52,604 INFO [root] [loginTest.py(test01_getImgCode_parameterized:69)] - getImgCode_parameter ——<Response [200]>
+2021-09-16 17:20:52,685 INFO [root] [loginTest.py(test01_getImgCode_parameterized:69)] - getImgCode_parameter ——<Response [200]>
+2021-09-16 17:20:52,746 INFO [root] [loginTest.py(test01_getImgCode_parameterized:69)] - getImgCode_parameter ——<Response [404]>
+2021-09-16 17:20:52,823 INFO [root] [loginTest.py(test01_getImgCode_parameterized:69)] - getImgCode_parameter ——<Response [400]>
+2021-09-16 17:20:52,905 INFO [root] [loginTest.py(test01_getImgCode_parameterized:69)] - getImgCode_parameter ——<Response [400]>
+2021-09-16 17:20:52,996 INFO [root] [loginTest.py(test01_getImgCode_parameterized:69)] - getImgCode_parameter ——<Response [400]>
+2021-09-16 17:20:53,076 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:20:53,127 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 200, 'description': '短信发送成功'}
+2021-09-16 17:20:53,206 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:20:53,238 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 100, 'description': '图片验证码错误'}
+2021-09-16 17:20:53,329 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:20:53,366 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 100}
+2021-09-16 17:20:53,448 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:20:53,481 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 100, 'description': '图片验证码错误'}
+2021-09-16 17:20:53,584 INFO [root] [loginTest.py(test03_getMsgCode_no_imgCode_request:88)] - getMsgCode_no_imgCode_request —{'status': 100, 'description': '图片验证码错误'}
+2021-09-16 17:20:53,663 INFO [root] [loginTest.py(test04_register_parameterized:97)] - login_response —<Response [200]>
+2021-09-16 17:20:53,714 INFO [root] [loginTest.py(test04_register_parameterized:103)] - getMsgCode_parameter response -{'status': 200, 'description': '短信发送成功'}
+2021-09-16 17:20:53,804 INFO [root] [loginTest.py(test04_register_parameterized:108)] - register_parameterized —{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2021-09-16 17:20:53,885 INFO [root] [loginTest.py(test04_register_parameterized:97)] - login_response —<Response [200]>
+2021-09-16 17:20:53,937 INFO [root] [loginTest.py(test04_register_parameterized:103)] - getMsgCode_parameter response -{'status': 200, 'description': '短信发送成功'}
+2021-09-16 17:20:54,026 INFO [root] [loginTest.py(test04_register_parameterized:108)] - register_parameterized —{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2021-09-16 17:20:54,115 INFO [root] [loginTest.py(test04_register_parameterized:97)] - login_response —<Response [200]>
+2021-09-16 17:20:54,170 INFO [root] [loginTest.py(test04_register_parameterized:103)] - getMsgCode_parameter response -{'status': 200, 'description': '短信发送成功'}
+2021-09-16 17:20:54,206 INFO [root] [loginTest.py(test04_register_parameterized:108)] - register_parameterized —{'status': 100, 'description': '验证码错误!'}
+2021-09-16 17:20:54,286 INFO [root] [loginTest.py(test04_register_parameterized:97)] - login_response —<Response [200]>
+2021-09-16 17:20:54,338 INFO [root] [loginTest.py(test04_register_parameterized:103)] - getMsgCode_parameter response -{'status': 200, 'description': '短信发送成功'}
+2021-09-16 17:20:54,371 INFO [root] [loginTest.py(test04_register_parameterized:108)] - register_parameterized —{'status': 100, 'description': '验证码错误'}
+2021-09-16 17:20:54,461 INFO [root] [loginTest.py(test04_register_parameterized:97)] - login_response —<Response [200]>
+2021-09-16 17:20:54,513 INFO [root] [loginTest.py(test04_register_parameterized:103)] - getMsgCode_parameter response -{'status': 200, 'description': '短信发送成功'}
+2021-09-16 17:20:54,549 INFO [root] [loginTest.py(test04_register_parameterized:108)] - register_parameterized —{'status': 100, 'description': '手机已存在!'}
+2021-09-16 17:20:54,628 INFO [root] [loginTest.py(test04_register_parameterized:97)] - login_response —<Response [200]>
+2021-09-16 17:20:54,677 INFO [root] [loginTest.py(test04_register_parameterized:103)] - getMsgCode_parameter response -{'status': 200, 'description': '短信发送成功'}
+2021-09-16 17:20:54,765 INFO [root] [loginTest.py(test04_register_parameterized:108)] - register_parameterized —{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2021-09-16 17:20:54,844 INFO [root] [loginTest.py(test04_register_parameterized:97)] - login_response —<Response [200]>
+2021-09-16 17:20:54,892 INFO [root] [loginTest.py(test04_register_parameterized:103)] - getMsgCode_parameter response -{'status': 200, 'description': '短信发送成功'}
+2021-09-16 17:20:54,978 INFO [root] [loginTest.py(test04_register_parameterized:108)] - register_parameterized —{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2021-09-16 17:23:11,129 INFO [root] [__init__.py(<module>:4)] - info
+2021-09-16 17:23:13,923 INFO [root] [__init__.py(<module>:4)] - info
+2021-09-16 17:25:28,012 INFO [root] [__init__.py(<module>:4)] - info
+2021-09-16 17:25:28,273 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:25:28,328 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 200, 'description': '短信发送成功'}
+2021-09-16 17:25:28,413 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:25:28,445 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 100, 'description': '图片验证码错误'}
+2021-09-16 17:25:28,542 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:25:28,578 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 100}
+2021-09-16 17:25:28,662 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:25:28,694 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 100, 'description': '图片验证码错误'}
+2021-09-16 17:27:18,318 INFO [root] [__init__.py(<module>:4)] - info
+2021-09-16 17:27:18,518 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:27:18,571 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 200, 'description': '短信发送成功'}
+2021-09-16 17:27:18,660 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:27:18,696 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 100, 'description': '图片验证码错误'}
+2021-09-16 17:27:18,782 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:27:18,823 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 100}
+2021-09-16 17:27:18,908 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:27:18,939 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 100, 'description': '图片验证码错误'}
+2021-09-16 17:29:05,585 INFO [root] [__init__.py(<module>:4)] - info
+2021-09-16 17:29:05,794 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:29:05,847 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 200, 'description': '短信发送成功'}
+2021-09-16 17:29:05,939 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:29:05,977 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 100, 'description': '图片验证码错误'}
+2021-09-16 17:29:06,068 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:29:06,104 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 100}
+2021-09-16 17:29:06,189 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:29:06,222 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 100, 'description': '图片验证码错误'}
+2021-09-16 17:30:00,655 INFO [root] [__init__.py(<module>:4)] - info
+2021-09-16 17:30:00,857 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:30:00,907 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 200, 'description': '短信发送成功'}
+2021-09-16 17:30:00,996 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:30:01,031 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 100, 'description': '图片验证码错误'}
+2021-09-16 17:30:01,172 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:30:01,209 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 100}
+2021-09-16 17:30:01,296 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:30:01,330 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 100, 'description': '图片验证码错误'}
+2021-09-16 17:30:49,216 INFO [root] [__init__.py(<module>:4)] - info
+2021-09-16 17:30:49,707 INFO [root] [loginTest.py(test01_getImgCode_parameterized:69)] - getImgCode_parameter ——<Response [200]>
+2021-09-16 17:30:49,807 INFO [root] [loginTest.py(test01_getImgCode_parameterized:69)] - getImgCode_parameter ——<Response [200]>
+2021-09-16 17:30:49,872 INFO [root] [loginTest.py(test01_getImgCode_parameterized:69)] - getImgCode_parameter ——<Response [404]>
+2021-09-16 17:30:49,953 INFO [root] [loginTest.py(test01_getImgCode_parameterized:69)] - getImgCode_parameter ——<Response [400]>
+2021-09-16 17:30:50,039 INFO [root] [loginTest.py(test01_getImgCode_parameterized:69)] - getImgCode_parameter ——<Response [400]>
+2021-09-16 17:30:50,123 INFO [root] [loginTest.py(test01_getImgCode_parameterized:69)] - getImgCode_parameter ——<Response [400]>
+2021-09-16 17:30:50,202 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:30:50,253 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 200, 'description': '短信发送成功'}
+2021-09-16 17:30:50,343 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:30:50,381 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 100, 'description': '图片验证码错误'}
+2021-09-16 17:30:50,464 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:30:50,496 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 100}
+2021-09-16 17:30:50,575 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:78)] - login_response —<Response [200]>
+2021-09-16 17:30:50,607 INFO [root] [loginTest.py(test02_getMsgCode_parameterized:83)] - getMsgCode_parameter response -{'status': 100, 'description': '图片验证码错误'}
+2021-09-16 17:30:50,702 INFO [root] [loginTest.py(test03_getMsgCode_no_imgCode_request:88)] - getMsgCode_no_imgCode_request —{'status': 100, 'description': '图片验证码错误'}
+2021-09-16 17:30:50,783 INFO [root] [loginTest.py(test04_register_parameterized:97)] - login_response —<Response [200]>
+2021-09-16 17:30:50,834 INFO [root] [loginTest.py(test04_register_parameterized:103)] - getMsgCode_parameter response -{'status': 200, 'description': '短信发送成功'}
+2021-09-16 17:30:50,918 INFO [root] [loginTest.py(test04_register_parameterized:108)] - register_parameterized —{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2021-09-16 17:30:51,014 INFO [root] [loginTest.py(test04_register_parameterized:97)] - login_response —<Response [200]>
+2021-09-16 17:30:51,070 INFO [root] [loginTest.py(test04_register_parameterized:103)] - getMsgCode_parameter response -{'status': 200, 'description': '短信发送成功'}
+2021-09-16 17:30:51,179 INFO [root] [loginTest.py(test04_register_parameterized:108)] - register_parameterized —{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2021-09-16 17:30:51,271 INFO [root] [loginTest.py(test04_register_parameterized:97)] - login_response —<Response [200]>
+2021-09-16 17:30:51,327 INFO [root] [loginTest.py(test04_register_parameterized:103)] - getMsgCode_parameter response -{'status': 200, 'description': '短信发送成功'}
+2021-09-16 17:30:51,366 INFO [root] [loginTest.py(test04_register_parameterized:108)] - register_parameterized —{'status': 100, 'description': '验证码错误!'}
+2021-09-16 17:30:51,459 INFO [root] [loginTest.py(test04_register_parameterized:97)] - login_response —<Response [200]>
+2021-09-16 17:30:51,518 INFO [root] [loginTest.py(test04_register_parameterized:103)] - getMsgCode_parameter response -{'status': 200, 'description': '短信发送成功'}
+2021-09-16 17:30:51,558 INFO [root] [loginTest.py(test04_register_parameterized:108)] - register_parameterized —{'status': 100, 'description': '验证码错误'}
+2021-09-16 17:30:51,639 INFO [root] [loginTest.py(test04_register_parameterized:97)] - login_response —<Response [200]>
+2021-09-16 17:30:51,689 INFO [root] [loginTest.py(test04_register_parameterized:103)] - getMsgCode_parameter response -{'status': 200, 'description': '短信发送成功'}
+2021-09-16 17:30:51,724 INFO [root] [loginTest.py(test04_register_parameterized:108)] - register_parameterized —{'status': 100, 'description': '手机已存在!'}
+2021-09-16 17:30:51,817 INFO [root] [loginTest.py(test04_register_parameterized:97)] - login_response —<Response [200]>
+2021-09-16 17:30:51,872 INFO [root] [loginTest.py(test04_register_parameterized:103)] - getMsgCode_parameter response -{'status': 200, 'description': '短信发送成功'}
+2021-09-16 17:30:51,965 INFO [root] [loginTest.py(test04_register_parameterized:108)] - register_parameterized —{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2021-09-16 17:30:52,045 INFO [root] [loginTest.py(test04_register_parameterized:97)] - login_response —<Response [200]>
+2021-09-16 17:30:52,099 INFO [root] [loginTest.py(test04_register_parameterized:103)] - getMsgCode_parameter response -{'status': 200, 'description': '短信发送成功'}
+2021-09-16 17:30:52,187 INFO [root] [loginTest.py(test04_register_parameterized:108)] - register_parameterized —{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}

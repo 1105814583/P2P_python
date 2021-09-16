@@ -1,0 +1,38 @@
+[
+  {
+    "desc_0": "获取注册短信验证码成功",
+    "phone": "13710733730",
+    "imgVerifyCode": "8888",
+    "type": "reg",
+    "status_code": 200,
+    "status": 200,
+    "description": "短信发送成功"
+  },
+  {
+    "desc_1": "获取注册短信验证码失败——图片验证码错误",
+    "phone": "13710733731",
+    "imgVerifyCode": "8887",
+    "type": "reg",
+    "status_code": 200,
+    "status": 100,
+    "description": "图片验证码错误"
+  },
+  {
+    "desc_2": "获取注册短信验证码失败——手机号为空",
+    "phone": "",
+    "imgVerifyCode": "8888",
+    "type": "reg",
+    "status_code": 200,
+    "status": 100,
+    "description": "手机号不能为空"
+  },
+  {
+    "desc_3": "获取注册短信验证码成功——图片验证码为空",
+    "phone": "13710733732",
+    "imgVerifyCode": "",
+    "type": "reg",
+    "status_code": 200,
+    "status": 100,
+    "description": "图片验证码错误"
+  }
+]

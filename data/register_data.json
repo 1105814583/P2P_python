@@ -1,0 +1,10 @@
+[
+  {"desc_0": "注册成功——填写必填参数","phone": "13710733730","password": "a123456","imgVerifyCode": "8888","phone_code": "666666","dy_server":"on","invite_phone": "","status_code": 200,"status": 200,"description": "注册成功"},
+  {"desc_1": "注册成功——填写全部参数","phone": "13710733731","password": "a123456","imgVerifyCode": "8888","phone_code": "666666","dy_server":"on","invite_phone": "13710733791","status_code": 200,"status": 200,"description": "注册成功"},
+  {"desc_2": "注册失败——图片验证码错误","phone": "13710733732","password": "a123456","imgVerifyCode": "8887","phone_code": "666666","dy_server":"on","invite_phone": "","status_code": 200,"status": 100,"description": "验证码错误"},
+  {"desc_3": "注册失败——短信验证码错误","phone": "13710733732","password": "a123456","imgVerifyCode": "8888","phone_code": "555555","dy_server":"on","invite_phone": "","status_code": 200,"status": 100,"description": "验证码错误"},
+  {"desc_4": "注册失败——手机已存在","phone": "13710733730","password": "a123456","imgVerifyCode": "8888","phone_code": "666666","dy_server":"on","invite_phone": "","status_code": 200,"status": 100,"description": "手机已存在!"},
+  {"desc_5": "注册失败——密码为空","phone": "13710733733","password": "","imgVerifyCode": "8888","phone_code": "666666","dy_server":"on","invite_phone": "","status_code": 200,"status": 100,"description": "密码不能为空"},
+  {"desc_6": "注册失败——填写必填参数","phone": "13710733734","password": "a123456","imgVerifyCode": "8888","phone_code": "666666","dy_server":"off","invite_phone": "","status_code": 200,"status": 100,"description": "请同意我们的条款"}
+
+]

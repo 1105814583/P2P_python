@@ -1,0 +1,32 @@
+[
+  {
+    "desc_0": "获取图片验证码——小数",
+    "type": "decimal",
+    "status_code": 200
+  },
+  {
+    "desc_1": "获取图片验证码——整数",
+    "type": "integer",
+    "status_code": 200
+  },
+  {
+    "desc_2": "获取图片验证码——空参",
+    "type": "null",
+    "status_code": 404
+  },
+  {
+    "desc_3": "获取图片验证码——字母",
+    "type": "letter",
+    "status_code": 400
+  },
+  {
+    "desc_4": "获取图片验证码——字符",
+    "type": "symbol",
+    "status_code": 400
+  },
+  {
+    "desc_5": "获取图片验证码——汉字",
+    "type": "char",
+    "status_code": 400
+  }
+]
